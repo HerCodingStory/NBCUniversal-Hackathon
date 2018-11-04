@@ -3518,6 +3518,11 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
+keymirror@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/keymirror/-/keymirror-0.1.1.tgz#918889ea13f8d0a42e7c557250eee713adc95c35"
+  integrity sha1-kYiJ6hP40KQufFVyUO7nE63JXDU=
+
 kind-of@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-1.1.0.tgz#140a3d2d41a36d2efcfa9377b62c24f8495a5c44"
@@ -4731,7 +4736,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha512-3pboPvLiWD7dkI3qf3KbUe6hKFKa52w+AE0VCqECtf+QHAKgOL37tTaNCnuX1nAAQ4ZhyP+kYVKf8rLmJ/feDQ==
@@ -4786,14 +4791,6 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-addons-shallow-compare@15.6.2:
-  version "15.6.2"
-  resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.6.2.tgz#198a00b91fc37623db64a28fd17b596ba362702f"
-  integrity sha1-GYoAuR/DdiPbZKKP0XtZa6NicC8=
-  dependencies:
-    fbjs "^0.8.4"
-    object-assign "^4.1.0"
-
 react-clone-referenced-element@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-clone-referenced-element/-/react-clone-referenced-element-1.1.0.tgz#9cdda7f2aeb54fea791f3ab8c6ab96c7a77d0158"
@@ -4817,10 +4814,26 @@ react-lifecycles-compat@^3, react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
+react-mixin@^3.0.5:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/react-mixin/-/react-mixin-3.1.1.tgz#68749756bfe32699e561372a4aeecb926db72b7f"
+  integrity sha512-z9fZ0aCRDjlgxLdMeWkJ9TwhmVLhQ09r8RFpin/cEPA2T6jsb7YHNWcIe0Oii+hhJNyMymdy91CSya5mRkuCkg==
+  dependencies:
+    object-assign "^4.0.1"
+    smart-mixin "^2.0.0"
+
 react-native-branch@2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.2.5.tgz#4074dd63b4973e6397d9ce50e97b57c77a518e9d"
   integrity sha1-QHTdY7SXPmOX2c5Q6XtXx3pRjp0=
+
+react-native-carousel-view@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-native-carousel-view/-/react-native-carousel-view-0.5.1.tgz#2b0d64d32d71be09ff7555aa8c19b1dac98c5969"
+  integrity sha1-Kw1k0y1xvgn/dVWqjBmx2smMWWk=
+  dependencies:
+    react-mixin "^3.0.5"
+    react-timer-mixin "^0.13.3"
 
 react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
@@ -4899,14 +4912,6 @@ react-native-screens@1.0.0-alpha.15, react-native-screens@^1.0.0-alpha.11:
   resolved "https://registry.yarnpkg.com/react-native-screens/-/react-native-screens-1.0.0-alpha.15.tgz#5b5a0041310b46f12048fda1908d52e7290ec18f"
   integrity sha512-S2OM/ieD+Krk+0/Z2Vz2rTUWYud5hJgCRZqXRtqEfMgEcGI4FBopXp7mwXCGbA2PFLjZwZSwLlsZ6RX30WnjRw==
 
-react-native-snap-carousel@^3.7.5:
-  version "3.7.5"
-  resolved "https://registry.yarnpkg.com/react-native-snap-carousel/-/react-native-snap-carousel-3.7.5.tgz#7172456d40ab9161523055eb302f9b03b244240a"
-  integrity sha512-t0/wkjA4Doehv3QTcmzO56G7paGtYsvJgw9XrFI7GCDLK7MrHTiN22ROuJOxMy61nPetyjDAS0Qa3XMl8K7rVQ==
-  dependencies:
-    prop-types "^15.6.1"
-    react-addons-shallow-compare "15.6.2"
-
 react-native-svg@8.0.8:
   version "8.0.8"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-8.0.8.tgz#5d4c636751d9db2d98a9b3cfc4ef45c4eac65d60"
@@ -4930,6 +4935,11 @@ react-native-tab-view@^1.0.0:
   dependencies:
     prop-types "^15.6.1"
 
+react-native-timeline-listview@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-timeline-listview/-/react-native-timeline-listview-0.2.3.tgz#e46b7f0fd2c2206329eee6194795e03899afe882"
+  integrity sha1-5Gt/D9LCIGMp7uYZR5XgOJmv6II=
+
 react-native-vector-icons@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-6.0.0.tgz#3a7076dbe244ea94c6d5e92802a870e64a4283c5"
@@ -4939,10 +4949,25 @@ react-native-vector-icons@6.0.0:
     prop-types "^15.6.2"
     yargs "^8.0.2"
 
+react-native-video@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-3.2.1.tgz#7ba3cbdfc5c747b5b00452811e98193824b16ce3"
+  integrity sha512-Xansfoo/to80FwhM1HKlf7pCxDZ5RtV+kG3piCVvsNAhPY4GGwiOGUH9y3Y+mFQIDEWcY8I9j16lsFYAbnue3g==
+  dependencies:
+    keymirror "0.1.1"
+    prop-types "^15.5.10"
+
 react-native-view-shot@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/react-native-view-shot/-/react-native-view-shot-2.5.0.tgz#428a997f470d3148d0067c5b46abd988ef1aa4c0"
   integrity sha512-xFJA+N7wh8Ik/17I4QB24e0a0L3atg1ScVehvtYR5UBTgHdzTFA0ZylvXp9gkZt7V+AT5Pni0H3NQItpqSKFoQ==
+
+react-native-youtube@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-youtube/-/react-native-youtube-1.1.0.tgz#efa30c4f7385d1951af643188e30760efd6c0784"
+  integrity sha512-/+xy09Bq4rdoUyMsDAVtflOje6mh6MK8V8D4+qC0d8EM7mSyrdrmo9rtlfQwCsGtnb+Uak46ILevyJb0FTFeHg==
+  dependencies:
+    prop-types "^15.5.0"
 
 "react-native@https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz":
   version "0.57.1"
@@ -5055,7 +5080,7 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-timer-mixin@^0.13.2:
+react-timer-mixin@^0.13.2, react-timer-mixin@^0.13.3:
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"
   integrity sha512-4+ow23tp/Tv7hBM5Az5/Be/eKKF7DIvJ09voz5LyHGQaqqz9WV8YMs31eFvcYQs7d451LSg7kDJV70XYN/Ug/Q==
@@ -5511,6 +5536,11 @@ slide@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
+
+smart-mixin@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/smart-mixin/-/smart-mixin-2.0.0.tgz#a34a1055e32a75b30d2b4e3ca323dc99cb53f437"
+  integrity sha1-o0oQVeMqdbMNK048oyPcmctT9Dc=
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
